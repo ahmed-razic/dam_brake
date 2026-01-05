@@ -59,11 +59,6 @@ edges
     //
 );
 
-defaultPatch
-{
-    type    empty;
-}
-
 boundary
 (
     leftWall
@@ -101,7 +96,7 @@ boundary
 
     atmosphere
     {
-        type    wall;
+        type    patch;
         faces
         (
             (8 20 21 9)
