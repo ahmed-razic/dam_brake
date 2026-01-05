@@ -16,6 +16,7 @@ FoamFile
 
 phases          (water air);
 
-sigma           0.07;           //surface tension coefficient between two phases (N/m)
+sigma           0.07;
+
 
 // ************************************************************************* //
